@@ -23,16 +23,17 @@ router.post("/api/notes", function(req, res){
 });
 router.delete("/api/notes/:id", function(req, res){
     var deleteId = req.params.id
+    console.log("db updated",deleteId)
     var updatedDb = []
     for (let i = 0; i < db.length; i++) {
         if (db[i].id != deleteId) {
+            console.log(id,db[i].id)
             updatedDb.push(db[i])
         }
     }
     db = updatedDb;
     fs.writeFileSync("./db/db.json", JSON.stringify(db), function(error){
         if (error) throw error
-        console.log("db updated",deleteId)
         console.log("delete route", db);
         res.json(db);
     });
