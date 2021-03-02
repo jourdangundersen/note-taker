@@ -38,3 +38,8 @@ you may also contact me via email at jourdancgundersen@gmail.com
 github repo: https://github.com/jourdangundersen/note-taker
 
 deployed link: [note-taker](https://note-taker-jcg.herokuapp.com/)
+
+## pictures of deployed project
+
+![](/public/assets/picture1.png)
+![](/public/assets/picture2.png)
