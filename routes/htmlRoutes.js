@@ -1,5 +1,10 @@
+// declaring local variables
+
 const router = require("express").Router();
 const path = require("path");
+
+// creating routes
+
 router.get("/", function(req, res){
     res.sendFile(path.join(__dirname, "../public/index.html"))
 });
