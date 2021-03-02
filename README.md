@@ -15,7 +15,7 @@ this project is designed to allow users to write notes on different pages, the u
 
 ## installation
 
-this is a deployed app there are no installation instructions
+for this app, the user can do a git clone and then run server.js in an integrated termainal, type "node server.js", and then type localhost:8001 in the browser and the app will run
 
 ## usage
 
