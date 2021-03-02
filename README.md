@@ -37,7 +37,8 @@ you may also contact me via email at jourdancgundersen@gmail.com
 
 github repo: https://github.com/jourdangundersen/note-taker
 
-deployed link: [note-taker](https://note-taker-jcg.herokuapp.com/)
+deployed link (heroku): [note-taker](https://note-taker-jcg.herokuapp.com/)
+deployed link (github): [note-taker](https://jourdangundersen.github.io/note-taker/)
 
 ## pictures of deployed project
 
